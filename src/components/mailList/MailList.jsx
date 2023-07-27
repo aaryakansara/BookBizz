@@ -8,6 +8,7 @@ export const MailList = () => {
     <div className="mailInputContainer">
         <input type="text" placeholder="Your Email Address"/>
         <button>Subscribe</button>
+        
     </div>
     </div>
   )

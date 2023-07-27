@@ -1,5 +1,5 @@
 .header {
-  background-color: #ff6600;
+  /* background-color: #ff6600; */
   color: white;
   display: flex;
   justify-content: center;
@@ -22,12 +22,17 @@
   display: flex;
   gap: 40px;
   margin-bottom: 50px;
+  background-color: #ff6600;
+  padding: 10px;
+  margin-top: -10px;
+  border-radius: 50px;
 }
 
 .headerListItem {
   display: flex;
   align-items: center;
   gap: 10px;
+  -webkit-text-stroke: 0.75px white;
 }
 
 .headerListItem.active {
@@ -36,15 +41,12 @@
   border-radius: 20px;
 }
 
-.bgImg {
-  width: 100%;
-  align-content: center;
-  object-fit: cover;
-  background-blend-mode: lighten;
-}
-
 .headerDesc {
   margin: 20px 0px;
+  font-weight: 500;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.125); 
+  padding: auto;
 }
 
 .headerBtn {
@@ -52,6 +54,7 @@
   color: white;
   font-weight: 500;
   border: none;
+  border-radius: 4px;
   padding: 10px;
   cursor: pointer;
 }
@@ -69,8 +72,8 @@
   justify-content: space-around;
   padding: 10px 0px;
   border-radius: 5px;
-  position: absolute;
-  bottom: -25px;
+  position: relative;
+  margin-top: 60px;
   width: 100%;
   max-width: 1024px;
 }
@@ -78,14 +81,12 @@
 .headerSearchItem {
   display: flex;
   font-size: 16px;
-  /* font-weight: bold;   */
   align-items: center;
   gap: 10px;
 }
 
 .headerSearchInput {
   font-size: 16px;
-  /* font-weight: bold;  */
   border: none;
   outline: none;
 }
