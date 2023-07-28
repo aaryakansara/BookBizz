@@ -1,4 +1,4 @@
-import React from 'react'
+import "./hotel.css"
 
 export const Hotel = () => {
   return (

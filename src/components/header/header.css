@@ -45,8 +45,10 @@
   margin: 20px 0px;
   font-weight: 500;
   background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.125); 
-  padding: auto;
+  background: rgba(0, 0, 0, 0.4); 
+  padding: 3px;
+  border-radius: 5px;
+  width: max-content;
 }
 
 .headerBtn {
