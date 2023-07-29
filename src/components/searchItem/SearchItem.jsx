@@ -4,7 +4,7 @@ export const SearchItem = () => {
   return (
     <div className="searchItem">
       <img
-        src="https://cf.bstatic.com/xdata/images/hotel/square200/73171931.webp?k=664cf5091db4d756d0d370efd6d559b1fd55e46b8d8fd562800faf36357fa410&o="
+        src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/73171931.jpg?k=e9083a97bee14346a752722ee926bd8157301f603652d93d8f230d0eea949018&o=&hp=1"
         alt=""
         className="siImg"
       />

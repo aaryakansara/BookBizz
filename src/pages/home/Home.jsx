@@ -1,6 +1,6 @@
+import "./home.css";
 import { Navbar } from "../../components/navbar/Navbar";
 import { Header } from "../../components/header/Header";
-import "./home.css";
 import { Featured } from "../../components/featured/Featured";
 import { PropertyList } from "../../components/propertyList/PropertyList";
 import { FeaturedProperties } from "../../components/featuredProperties/FeaturedProperties";
